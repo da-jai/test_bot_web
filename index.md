@@ -1,19 +1,20 @@
-<head>
-  <link rel="stylesheet" href="https://npm-scalableminds.s3.eu-central-1.amazonaws.com/@scalableminds/chatroom@master/dist/Chatroom.css" />
-</head>
-<body>
-  <div class="chat-container"></div>
+<!DOCTYPE html>
+<html>
 
-  <script src="https://npm-scalableminds.s3.eu-central-1.amazonaws.com/@scalableminds/chatroom@master/dist/Chatroom.js"/></script>
-  <script type="text/javascript">
-    var chatroom = new window.Chatroom({
-      host: "http://11e6aea0c416.ngrok.io/guest/conversations/production/6180d7135f1f409cb1a8f3f29d92226e",
-      title: "Chat with Mike",
-      container: document.querySelector(".chat-container"),
-      welcomeMessage: "Hi, I am Mike. How may I help you?",
-      speechRecognition: "en-US",
-      voiceLang: "en-US"
-    });
-    chatroom.openChat();
-  </script>
+<head>
+  <title>Our Company</title>
+</head>
+
+<body>
+
+  <h1>Welcome to Our Company</h1> 
+  <h2>Web Site Main Ingredients:</h2>
+
+  <p>Pages (HTML)</p>
+  <p>Style Sheets (CSS)</p>
+  <p>Computer Code (JavaScript)</p>
+  <p>Live Data (Files and Databases)</p>
+
 </body>
+
+</html> 
