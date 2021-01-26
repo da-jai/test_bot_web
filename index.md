@@ -7,7 +7,7 @@
   <script src="https://npm-scalableminds.s3.eu-central-1.amazonaws.com/@scalableminds/chatroom@master/dist/Chatroom.js"/></script>
   <script type="text/javascript">
     var chatroom = new window.Chatroom({
-      host: "http://c7d0e1f665e3.ngrok.io/webhooks/rest/webhook",
+      host: "http://localhost:5005",
       title: "Chat with Mike",
       container: document.querySelector(".chat-container"),
       welcomeMessage: "Hi, I am Mike. How may I help you?",
