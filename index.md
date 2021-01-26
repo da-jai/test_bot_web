@@ -6,10 +6,10 @@
     selector: "#webchat",
     initPayload: "/get_started",
     customData: {"language": "en"}, // arbitrary custom data. Stay minimal as this will be added to the socket
-    socketUrl: "http://localhost:5500",
+    socketUrl: "http://localhost:5002",
     socketPath: "/socket.io/",
-    title: "Title",
-    subtitle: "Subtitle",
+    title: "Test_bot",
+    subtitle: "#rasa_chat_bot",
     params: {"storage": "session"} // can be set to "local"  or "session". details in storage section.
   })
 </script>
