@@ -8,7 +8,7 @@
   <script type="text/javascript">
     var chatroom = new window.Chatroom({
       host: "https://f19781ba0e3d.ngrok.io",
-      title: "Chat with Mike",
+      title: "Chat with aman",
       container: document.querySelector(".chat-container"),
       welcomeMessage: "Hi, I am Mike. How may I help you?",
       speechRecognition: "en-US",
